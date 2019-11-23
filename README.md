@@ -1,5 +1,21 @@
-# Vue-set-up-the-course-Homepage
-Vue搭建课程首页
-<br>
+# vue-set-up-the-course-homepage
 
-一个移动端的界面案例，其中包括环境的配置以及具体的页面实现，模拟一个真实的开发流程进行页面的开发。
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
