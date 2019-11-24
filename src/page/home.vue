@@ -5,6 +5,7 @@
             <li v-for="item in navArrList" :key="item"><img :src="item.imgUrl"><span>{{item.name}}</span></li>
         </ul>
         <v-course :arrList="array"></v-course>
+        <v-footer></v-footer>
     </div>
 </template>
 <script>
@@ -20,7 +21,9 @@
 	import course2 from "@/assets/course2.jpg";
 	import course3 from "@/assets/course3.jpg";
 	import course4 from "@/assets/course4.jpg";
-	import course5 from "@/assets/course5.jpg";
+    import course5 from "@/assets/course5.jpg";
+    
+    import Footer from "@/components/footer"
     export default {
     data(){
         return{
@@ -85,7 +88,8 @@
     },
     components:{
         'v-header':Header,
-        'v-course':Course
+        'v-course':Course,
+		'v-footer': Footer
     }
 }
 </script>

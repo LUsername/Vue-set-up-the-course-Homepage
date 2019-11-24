@@ -1,10 +1,12 @@
 <template>
     <ul class="c-course">
+		<router-link to="./detail">
         <li v-for="item in arrList" :key="item">
             <img :src="item.imgUrl">
             <h1>{{item.title}}</h1>
             <p>{{item.msg}}</p>
         </li>
+		</router-link>
     </ul>
 </template>
 <script>

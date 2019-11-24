@@ -16,4 +16,8 @@ export default {
   margin: 0;
   list-style: none;
 }
+/* 去除router-link默认样式 */
+a{
+  text-decoration: none;
+}
 </style>
